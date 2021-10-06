@@ -48,7 +48,6 @@ Signout: Signs a user out of the active session.
 <h3> Enhancements available to do </h3> (difficulty mentioned out of 5 and graded relatively)
 <ul>
 <li> Fixing routes based errors (3) </li>
-<li> Fixing the deprecation warning of body parser at app.js(3)</li>
 <li> Adding the login and logout part to the webpage</li>(2)
 <li> Adding database connectivity and looking in the database for valid credentials while logging in </li> (5)
 <li> Implementing registration functionality (either linking with database or storing details in a constant for the session) </li> (5)
