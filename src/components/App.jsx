@@ -3,11 +3,13 @@ import ReactDOM from "react-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
-import notes from "../Notes";
-
-
+import Notes from "../Notes";
+import Add from './Add';
 
 function App() {
+
+    const [notes, setNotes] = React.useState(Notes);
+
     return (
         <div>
             <Header />
@@ -18,6 +20,7 @@ function App() {
                 />);
             })
             }
+            <Add notes={notes} setNotes={setNotes}/>
             <Footer />
         </div>
     );
