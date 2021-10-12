@@ -37,7 +37,7 @@ npm start<br>
 
 <h3> Enhancements available to do </h3> (difficulty mentioned out of 5 and graded relatively)
 
-- [ ] Adding a '+' button fixed on bottom right of the screen to add a new note. (2)
+- [x] Adding a '+' button fixed on bottom right of the screen to add a new note. (2)
 - [ ] Being able to delete an existing note. (2)
 - [ ] Adding a NodeJS server. (2)
 - [ ] Adding a login screen (only UI). (3)
