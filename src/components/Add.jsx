@@ -5,6 +5,7 @@ function Note(props){
 
   const [title, setTitle] = React.useState('');
   const [content, setContent] = React.useState('');
+  
 
   const addNote = () => {
     const note = {
