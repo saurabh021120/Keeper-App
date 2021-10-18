@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import Add from './Add';
+import Login from './Login';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             })
             }
             <Add notes={notes} setNotes={setNotes}/>
+            <Login />
             <Footer />
         </div>
     );
