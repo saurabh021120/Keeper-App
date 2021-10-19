@@ -1,9 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";  
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import Add from './Add';
+import Login from './Login';
+import NavBar from "./NavBar";
+import Routes from '../routes/index';
 
 function App() {
 
@@ -11,15 +15,11 @@ function App() {
 
     return (
         <div>
+            <NavBar/>
             <Header />
-            {notes.map(note => {
-                return (<Note
-                    title={note.title}
-                    content={note.content}
-                />);
-            })
-            }
-            <Add notes={notes} setNotes={setNotes}/>
+            <Router>
+                <Routes/>
+            </Router>
             <Footer />
         </div>
     );
