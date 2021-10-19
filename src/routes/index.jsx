@@ -8,7 +8,7 @@ import Note from '../components/Note';
 const Routes = () => {
 
     const [notes, setNotes] = React.useState([]);
-    
+
     return (
         <div>
             <Switch>
@@ -18,6 +18,8 @@ const Routes = () => {
                 return (<Note
                     title={note.title}
                     content={note.content}
+                    notes={notes}
+                    setNotes={setNotes}
                 />);
             })
             }

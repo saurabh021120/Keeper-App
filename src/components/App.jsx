@@ -10,8 +10,14 @@ import NavBar from "./NavBar";
 import Routes from '../routes/index';
 
 function App() {
+    const [data, setData] = React.useState(null);
 
-    const [notes, setNotes] = React.useState([]);
+    React.useEffect(() => {
+      fetch("/")
+        .then((res) => res.json())
+        .then((data) => setData(data.message));
+    }, []);
+
 
     return (
         <div>
