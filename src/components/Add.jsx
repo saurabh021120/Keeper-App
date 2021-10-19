@@ -3,6 +3,8 @@ import React from "react";
 
 function Note(props){
 
+
+
   const [title, setTitle] = React.useState('');
   const [content, setContent] = React.useState('');
   
@@ -15,6 +17,8 @@ function Note(props){
     }
     props.setNotes([...props.notes, note]);
   }
+
+
 
   return (<div className="note add">
       <p>
