@@ -1,40 +1,30 @@
-<h1>Prevelec</h1>
-This website aims to make an app which would help  people keep a track of their notes, events and other stuff
+<h1>Keeper</h1>
+This website aims to make an app which would help people keep a track of their notes, events and other stuff
 
 <h2> Instructions for execution of the code </h2>
 
 <h3>Software to be installed beforehand: </h3>
-<ol><li> NodeJs </li></ol>
+<ol><li> NodeJs </li>
+<li> ReactJs </li></ol>
 
 <h3>Running the application: </h3>
 The website server is initiated by - <br>
 npm i<br>
-node app.js<br>
+npm start<br>
 ~command on git bash.<br>
-<h2>About the website</h2>
-<ul>
-<li>You are first asked to log in to your account.
-<b>username</b>: abc 
-<b>password</b>: fgh
-Currently the login part is not ready yet. It needs to be added separately.
-</li>
-<li>
-Once logged in, you will be taken to your own dashboard where u would have kept info about your events and all other notes.
-</li>
-<li>
-The dashboard will also contain a "+" button to add notes and event. This part of the website needs to be added.
-</li>
-<li>
-  The website is basically a single landing page website.
-</li>
-<li>
-Signout: Signs a user out of the active session.
-</li>
-</ul>
+
+<h2>How the website is expected to look</h2>
+
+
+- [x] The website is a simple UI interface that keeps track of your quick notes. 
+- [ ] Users can add or remove notes from the same. 
+- [ ] The notes will have tags that can be used for filtering them. 
+- [ ] The notes may also be linked with Google Calendar API to synchronize events with the google calendar so they may act as reminders as well. Login functionality to allow  personalization of the data available. 
+- [ ] The data would be stored on a database (perhaps MongoDB).
 
 <h3>Note</h3>
-<p> The website is currently incomplete and has a lot of oppurtuinities for contribution and you may use this project to get started with open source contributions as such.</p>
-<p> The issues listed below are provided along with their difficulty levels so you may pick them accordingly.</p>
+<p> The website is currently incomplete and has a lot of oppurtuinities for contribution and is a great way for you to get started with open source contributions!!!</p>
+<p> The issues listed below are provided along with their difficulty levels so you may pick them accordingly!</p>
 
 <h3> How to contribute </h3>
 <ul>
@@ -46,15 +36,18 @@ Signout: Signs a user out of the active session.
 </ul>
 
 <h3> Enhancements available to do </h3> (difficulty mentioned out of 5 and graded relatively)
-<ul>
-<li> Fixing routes based errors (3) </li>
-<li> Adding the login and logout part to the webpage</li>(2)
-<li> Adding database connectivity and looking in the database for valid credentials while logging in </li> (5)
-<li> Implementing registration functionality (either linking with database or storing details in a constant for the session) </li> (5)
-<li> Making the website responsive and add other functionalities like the "+" button</li> (2)
-<li> Enhancing the home page, making it the landing page </li> (4)
-<li> Segregation of events and notes for a particular user and connecting the events to google calender</li>
-<li> For any other enhancements, open the issue and I shall assign it if it is appropriate.</li>
 
+- [x] Adding a '+' button fixed on bottom right of the screen to add a new note. (2)
+- [ ] Being able to delete an existing note. (2)
+- [x] Adding a NodeJS server. (2)
+- [x] Adding a login screen (only UI). (3)
+- [ ] Persisting and fetching data from a database. (4)
+- [ ] Making the app responsive. (2)
+- [ ] Adding tags from a pre-existing list of tags to the notes. (3)
+- [ ] Adding a filter button to show the notes with specific tags. (4)
+- [ ] Adding or removing a tag from the list of pre-existing tags. (2)
+- [ ] Adding calendar API to sync the events with the calendar and make reminders. (5)
+
+Some of the above enhancements are dependant on other enhancements and hence you are expected to take up the issues accordingly. 
 <p> PS: For the issues that I have opened already, comment in the issue to let me know if you are taking it up. (like by commenting 'I would like to take this up')</p>
-<p> For any queries, contact me at 190030036@iitdh.ac.in </p>
+<p> For any queries, contact me at 190030036@iitdh.ac.in. We look forward to your contributions! </p>
